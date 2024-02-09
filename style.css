@@ -43,6 +43,12 @@ address a:hover{
     color: gray;
     text-decoration: none;
 }
+section#section-categories,section#section-directives{
+    padding: 50px;
+}
+section#section-categories header,section#section-directives header{
+    text-align: center;
+}
 
 /* Entete du site */
 header#header-page{
@@ -119,12 +125,6 @@ section#section-accueil div.container h3{
 
 
 /* Section catégories */
-section#section-categories{
-    padding: 50px;
-}
-section#section-categories header{
-    text-align: center;
-}
 section#section-categories #choice-categories{
     text-align: center;
     margin-top: 20px;
@@ -197,4 +197,32 @@ section#section-categories .grid-categories section .noire{
     right: 10px;
     font-family: monospace, sans-serif;
     border-radius: 5px;
+}
+
+/* section directives */
+.container-questions{
+    margin-top: 50px;
+}
+.container-questions summary{
+    padding: 5px;
+    background-color: rgb(237, 236, 236);
+    border-bottom: 1px solid rgb(165, 165, 165);
+    list-style-type: none;
+}
+.container-questions details{
+    position: relative;
+    margin-bottom: 5px;
+}
+.container-questions details .fa-caret-down{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.container-questions details section{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: justify;
+    border: 1px solid rgb(165, 165, 165);
+    border-top: none;
+    border-radius: 0 0 5px 5px;
 }
