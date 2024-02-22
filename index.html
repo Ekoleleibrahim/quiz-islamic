@@ -29,8 +29,7 @@
                 <li><a href="#section-accueil" class="green">ACCUEIL</a></li>
                 <li><a href="#section-categories">CATEGORIES</a></li>
                 <li><a href="#section-directives">QUESTIONS</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><i class="fa-solid fa-question"></i></li>
+                <li><a href="#myblog">BLOG</a></li>
             </ul>
         </nav>
     </header>
@@ -45,20 +44,20 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, cupiditate alias! Ut, rerum, suscipit quod inventore <br>
              minus fuga ad dolore veritatis deleniti quas magnam mollitia similique quam illum asperiores quisquam.</p>
             <div>
-                <a href="">Commencer le test &nbsp;<i class="fa-regular fa-circle-play" style="color: white;"></i></a>
+                <button href="" onclick="document.getElementById('container-conditions').style.display='block';">Commencer le test &nbsp;<i class="fa-regular fa-circle-play" style="color: white;"></i></button>
             </div>
             <div class="container">
                 <div>
                     <h3>Islamique</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur <br>
-                        adipisicing elit. Perspiciatis rerum et in cupiditate <br>
+                        adipisicing elit. Perspiciatis rerum et in cupiditate <br> 
                          fugiat labore officia, vero dolorum provident facilis <br> obcaecati doloremque saepe aliquid possimus illum non. Sapiente, fugit necessitatibus?</p>
                 </div>
                 <div>
                     <h3>Générale</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur <br>
-                        adipisicing elit. Perspiciatis rerum et in cupiditate <br>
-                         fugiat labore officia, vero dolorum provident facilis <br> obcaecati doloremque saepe aliquid possimus illum non. Sapiente, fugit necessitatibus?</p>
+                        adipisicing elit. Perspiciatis rerum et in cupiditate <br> 
+                         fugiat labore officia, vero dolorum provident facilis <br>  obcaecati doloremque saepe aliquid possimus illum non. Sapiente, fugit necessitatibus?</p>
                 </div>
             </div>
         </div>
@@ -212,7 +211,6 @@
         </div>
     </section>
 
-
     <!-- section directives -->
     <section id="section-directives">
         <header>
@@ -276,6 +274,101 @@
             </details>
         </div>
     </section>
+
+     <!-- section blog -->
+     <section id="myblog">
+        <header>
+            <h2>Blog</h2>
+            <p class="para-1">Suivez en direct les nouvelles sur l'Islam dans toute l'étendu du monde entier. Ce blog vous permet d'etre toujours en page à la une, les articles sont mis à jour quotidiennement.</p>
+        </header>
+        <div class="categories-blog">
+            <ul>
+                <li class="blog">Blogs:</li>
+                <li>
+                    <a href="" class="bold">All</a>
+                </li>
+                <li>
+                    <a href="" class="other-color">Une heure</a>
+                </li>
+                <li>
+                    <a href="" class="other-color">Un mois</a>
+                </li>
+            </ul>
+        </div>
+        <div class="articles-blog">
+                <article>
+                    <a href="" class="lien-blog">
+                        <header>
+                            <img src="images/images-blog/ramadan.jpg" alt="le mois de ramadan">
+                        </header>
+                    </a>
+                    <div class="content-section">
+                        <h4>Le mois de Ramadan</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dignissimos repudiandae dolorem eaque officia? Ipsa earum incidunt deleniti dolorum,....</p>
+                        <a href="" class="guide">Lire l'article ...</a>
+                        <div class="flex">
+                            <p>Févr 22.2024</p>
+                            <p>Ramadan</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="" class="lien-blog">
+                        <header>
+                            <img src="images/images-blog/oumrah.jpg" alt="hajj et oumrah">
+                        </header>
+                    </a>
+                    <div class="content-section">
+                        <h4>Le hajj et la oumrah</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dignissimos repudiandae dolorem eaque officia? Ipsa earum incidunt deleniti dolorum,....</p>
+                        <a href="" class="guide">Lire l'article ...</a>
+                        <div class="flex">
+                            <p>Févr 22.2024</p>
+                            <p>Hajj & Oumrah</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="" class="lien-blog">
+                        <header>
+                            <img src="images/images-blog/aid-fitr.jpg" alt="Aid al fitr">
+                        </header>
+                    </a>
+                    <div class="content-section">
+                        <h4>La fete AL fitr</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dignissimos repudiandae dolorem eaque officia? Ipsa earum incidunt deleniti dolorum,....</p>
+                        <a href="" class="guide">Lire l'article ...</a>
+                        <div class="flex">
+                            <p>Févr 22.2024</p>
+                            <p>Ramadan</p>
+                        </div>
+                    </div>
+                </article>
+        </div>
+    </section>
+
+    <div id="container-conditions">
+        <div class="conditions-jeux">
+            <i class="fa-solid fa-circle-xmark" onclick="document.getElementById('container-conditions').style.display='none';"></i>
+            <header>
+                <h5>Voici quelques directives à savoir avant de commencer</h5>
+                <p>Avant de commencer le test, rassurez-vous d'avoir bien lus les directives car tout non respect des reglèments, cela conduira à l'echec. Ci-dessous, vous avez des directives afin de bien passer votre test:</p>
+            </header>
+            <ol>
+                <li>Rassurez-vous d'avoir des bases solides car vous pourriez trouver les questionnaires un peu plus difficile sans base solide. Au cas où vous n'etes pas sure de vous, <br> <a href="">télécharger la fiche de préparation</a>.</li>
+                <li>Le test est individuel et pour chaque questions vous avez un chrono d'au-moins 30 secondes avant de passer au questionnaire suivant automatiquement. Au cas où le délai est atteint, vous serez automatiquement redirigé au questionnaire suivant.</li>
+                <li>Vous n'avez droit qu'à une seule reponse. Une fois cliquer sur la reponse choisi, vous n'aurez plus la capacité de changer de reponse;</li>
+                <li>Soyez sérieux, une fois que vous aurez quitter le test ou aller à un autre onglet du navigateur, le test est terminé et vous aurez perdu. Toute tentatives de tricherie conduira à l'envoi du formulaire automatique;</li>
+                <li>Vous avez droit de rependre le test à tout moment et quand vous avez besoin.</li>
+            </ol>
+
+            <p style="text-align: center;"><a href="">Commencer</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2024| Tout les droits réservés. </p>
+    </footer>
 
     <script>
         function message(){
