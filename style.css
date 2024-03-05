@@ -307,6 +307,24 @@ section#section-categories .grid-categories section .noire{
     border-radius: 0 0 5px 5px;
 }
 
+/* button retour vers le haut */
+#arrow-up{
+    display: none;
+}
+#arrow-up a{
+    color: black;
+}
+#arrow-up .fa-arrow-up{
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(4, 4, 4, 0.409);
+}
+
 /* container conditions du test */
 #container-conditions{
     width: 100%;
@@ -407,6 +425,9 @@ footer{
         padding: 10px;
         display: block;
     }
+    header#header-page nav{
+        margin-top: 20px;
+    }
     header#header-page nav ul{
         list-style-type: none;
         display: flex;
@@ -464,8 +485,6 @@ footer{
     section#section-accueil div.container div h3{
         text-align: center;
     }
-}
-@media screen and (max-width:635px){
     /* Section catégories */
     section#section-categories .grid-categories{
         margin-top: 30px;
@@ -482,6 +501,10 @@ footer{
         height: 100%;
         border-radius: 10px 10px 0 0;
         
+    }
+    /* button retour vers le haut */
+    #arrow-up{
+        display: block;
     }
 }
 
@@ -504,4 +527,5 @@ footer{
         color: white;
         border-radius: 3px;
     }
+    
 }
