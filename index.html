@@ -6,10 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Quiz islamique est un site des tests islamique créer afin de s'exercer et voir vos progrès en science islamique. Il est composé de plusieurs questionnaires parmi lesquels : la croyance, la propreté, la prière, le jeunes en islam et autres.">
     <meta name="keywords" content="site des tests, exercices islamiques, infos">
+    <meta property="og:title" content="Quiz islamique | Tester votre savoir islamique">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://ekoleleibrahim.github.io/quiz-islamique">
+    <meta property="og:locale" content="fr">
     <title>Quiz islamique | Tester votre savoir islamique</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.png">
     <script src="https://kit.fontawesome.com/d498f45440.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Liens de contact -->
@@ -26,7 +31,7 @@
     </address>
     <!-- Entete du site -->
     <header id="header-page">
-        <h1>Quiz islamique</h1>
+        <a href="index.html" class="title-site">Quiz islamique</a>
         <nav>
             <ul>
                 <li><a href="#section-accueil" class="green">ACCUEIL</a></li>
@@ -35,15 +40,28 @@
                 <li><a href="#myblog">BLOG</a></li>
             </ul>
         </nav>
+        <div class="menu">
+            <input type="checkbox" id="burger">
+            <label for="burger" id="burger-logo">
+                <span>|||</span>
+                <ul>
+                    <a href="index.html" class="title-site">Quiz islamique</a>
+                    <li><a href="#section-accueil">ACCUEIL</a></li>
+                    <li><a href="#section-categories">CATEGORIES</a></li>
+                    <li><a href="#section-directives">QUESTIONS</a></li>
+                    <li><a href="#myblog">BLOG</a></li>
+                </ul>
+            </label>
+        </div>
     </header>
 
     
     <!-- Section accueil -->
     <section id="section-accueil">
         <div>
-            <h2>Test ton niveau d'études <br>
+            <h1>Test ton niveau d'études <br>
                 islamique avec des exercices concrets
-            </h2>
+            </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, cupiditate alias! Ut, rerum, suscipit quod inventore <br>
              minus fuga ad dolore veritatis deleniti quas magnam mollitia similique quam illum asperiores quisquam.</p>
             <div>
