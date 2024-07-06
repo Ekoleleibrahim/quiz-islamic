@@ -488,6 +488,7 @@ footer{
         display: block;
     }
     section#section-accueil img{
+        display: none;
         width: 100%;
         border-radius: 0;
     }
